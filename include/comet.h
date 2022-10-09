@@ -6,8 +6,8 @@
 
 void DrawCometRainbow(CRGB* jStrip, int NUM_LEDS)
 {
-    const byte fadeAmt = 128;
-    const int cometSize = 1;
+    const byte fadeAmt = 128/2;
+    const int cometSize = 5;
     const int deltaHue  = 4;
     
     static byte hue = HUE_RED;
